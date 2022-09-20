@@ -1,0 +1,22 @@
+.to-top img {
+    background: none;
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    width: 3.3%;
+    height: 7%;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top img:hover {
+    background: whitesmoke;
+}
+
+.to-top img.active {
+    bottom: 2%;
+    pointer-events: auto;
+    opacity: 1;
+}

@@ -1,0 +1,209 @@
+.feedback-button {
+  position: relative;
+  width: 60%;
+  height: 45%;
+  cursor: pointer;
+  border: solid 3px #CCCCCC;
+  background: black;
+  border-radius: 5%;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#feedback-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(235, 231, 231);
+  margin-left: 1%;
+  padding: 6% 5%;
+
+}
+
+#formText #love {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: purple;
+}
+
+#formText #thanks {
+  color: #dbb666;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 6%;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+#feedback-main {
+  width: 70%;
+  border-style: double;
+  border: purple solid 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 0;
+  line-height: 16%;
+  background: whitesmoke;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 5%;
+  width: 90%;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input::placeholder {
+  color: purple;
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid rgb(54, 152, 177);
+  color: rgb(54, 152, 177);
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+#feedback-name {
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#feedback-comment {
+  height: 22vh;
+  line-height: 150%;
+}
+
+input:hover,
+#feedback-comment:hover,
+input:focus,
+#feedback-comment:focus {
+  background-color: rgb(239, 238, 238);
+}
+
+#feedback-button-blue {
+  float: left;
+  width: 90%;
+  border: #ac893f solid 4px;
+  cursor: pointer;
+  background-color: rgb(54, 152, 177);
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+#feedback-button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: purple
+}
+
+
+
+.feedback-submit:hover .feedback-ease {
+  width: 100%;
+  background-color: white;
+}
+
+footer #copy,
+#heart {
+  font-weight: bold;
+  font-style: italic;
+  color: #ac893f;
+}
+
+footer #heart {
+  margin-left: 8px;
+}
+
+footer .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.logos #insta:hover,
+#git:hover,
+#linked:hover {
+  transform: scale(1.2);
+}
+
+.logos #git,
+#linked {
+  margin-top: 2%;
+  position: relative;
+  width: 3.6vh;
+  height: 3.6vh;
+}
+
+
+.logos #insta {
+  width: 4.5vh;
+  height: 4.5vh;
+  margin-top: 2px;
+}
+
+.logos #git,
+#linked {
+  margin-top: 6px;
+}
+
+.logos #git {
+  margin-left: 8px;
+}
+
+#linked {
+  margin-left: 8px;
+  height: 3.5vh;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 300px) {
+  #feedback-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+  }
+
+  #formText {
+    width: 96%;
+    margin-right: 1.5%;
+  }
+
+  #feedback-main {
+    width: 85%;
+  }
+footer{
+  height: 15vh;
+}
+
+}
+

@@ -1,0 +1,347 @@
+#resume {
+    width: 60%;
+    background: white;
+    margin-left: 19%;
+    border-style: double;
+    border-color: purple;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cv h2 {
+    font-size: 3rem;
+    padding-left: 2%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    letter-spacing: 1.5rem;
+    color: purple;
+}
+
+.left {
+    background-color: rgb(191, 143, 191);
+    padding-left: 3%;
+    width: 80%;
+    border-right-style: double;
+    border-right-color: purple;
+    position: relative;
+    font-size: 1rem;
+    padding-bottom: 4%;
+}
+
+.normal-height {
+    font-weight: 600;
+}
+
+.info {
+    background-color: rgb(191, 143, 191);
+    color: purple;
+    letter-spacing: 0.3rem;
+    padding: 1.5%;
+    font-weight: 800;
+}
+
+.left .info {
+    line-height: 3rem;
+}
+
+#soft-skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 85%;
+    line-height: 1rem;
+}
+
+.progress-bar {
+    background: rgb(191, 167, 191);
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 6%;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    background: purple;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 30px;
+    width: 30px;
+    font-size: small;
+    color: purple;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: purple;
+    background: rgb(191, 143, 191);
+    float: right;
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    animation: html 1s linear forwards;
+
+}
+
+.bootstrap {
+    animation: bootstrap 1s linear forwards;
+}
+
+.css {
+    animation: css 1s linear forwards;
+}
+
+.javascript {
+    animation: javascript 1s linear forwards;
+}
+
+.react {
+    animation: react 1s linear forwards;
+}
+
+.right {
+    color: rgb(191, 143, 191);
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.cv-info {
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes html {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes bootstrap {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 30%;
+    }
+}
+
+.left .btn {
+    background: rgb(55, 6, 52);
+    border-radius: 5px;
+    border: 2px solid purple;
+    margin-top: 7%;
+    margin-left: 45%;
+    padding: 5px 30px;
+}
+
+.left .btn a {
+    text-decoration: none;
+    color: rgb(192, 146, 192);
+    font-size: 15px;
+}
+
+.left .btn:hover {
+    background-color: rgb(192, 146, 192);
+    color: rgb(55, 6, 52);
+    cursor: pointer;
+}
+
+.left .btn a:hover {
+    color: rgb(55, 6, 52);
+}
+
+.right .imp {
+    padding-bottom: 3%;
+    font-weight: 800;
+}
+
+select {
+    width: 100%;
+    border-style: none;
+    color: rgb(191, 143, 191)
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    #resume {
+        width: 99%;
+        padding: 0;
+        margin: 0 auto 0 0.4%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .cv h2 {
+        padding-top: 8%;
+        margin-left: 1%;
+        font-size: 2rem; 
+        color: purple;
+        width: 100%;
+    }
+    .info{
+        margin-bottom: 2%
+    }
+
+    .right {
+        padding-bottom: 5%;;
+    }
+  
+    .cv-info {
+        flex-direction: column-reverse;
+        border: 0;
+        border-style: none;
+    }
+
+    .left {
+        padding-left:4%;
+        width: 100%;
+        border-right-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+
+    .info,
+    .progress-bar,
+    .skills {
+        line-height: 2rem;
+
+    }
+
+    #skill-list{
+        list-style: none;
+    }
+}
+
+@media(max-width:768px)and (min-width: 601px) {
+    #resume {
+        width: 99%;
+        padding: 0 25px 0 0;
+        margin: 0 auto 0 0.4%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .cv h2 {
+        padding-top: 8%;
+        margin-left: 1%;
+        font-size: 2rem; 
+        color: purple;
+        width: 100%;
+    }
+    .info{
+        margin-bottom: 2%
+    }
+
+    .right {
+        padding-bottom: 5%;;
+    }
+  
+    .cv-info {
+        flex-direction: column-reverse;
+        border: 0;
+        border-style: none;
+    }
+
+    .left {
+        width: 100%;
+        border-right-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-bottom: 4%;
+        padding-right: 2%;
+        width:104.2%;
+    }
+
+    .info,
+    .progress-bar,
+    .skills {
+        line-height: 2rem;
+
+    }
+    #skill-list{
+       margin-left: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    .cv-info {
+        display: flex;
+        flex-direction: row;
+    }   
+    #resume {
+        width: 99%;
+        padding: 0 25px 0 0;
+        margin: 0 auto 0 0.4%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .cv h2 {
+        padding-top: 8%;
+        margin-left: 1%;
+        font-size: 2rem; 
+        color: purple;
+        width: 100%;
+    }
+    .info{
+        margin-bottom: 2%
+    }
+
+    .right {
+        padding-bottom: 5%;
+        padding-left:2%;
+    }
+  
+    .left {
+        width: 100%;
+        border-right-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-bottom: 4%;
+        padding-right: 2%;
+        width:104.2%;
+    }
+
+    .info,
+    .progress-bar,
+    .skills {
+        line-height: 2rem;
+
+    }
+    #skill-list{
+       margin-left: 4%;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+    #resume {
+        width: 99%;
+        padding: 0 25px 0 0;
+        margin: 0 auto 0 0.4%;
+        height: auto;
+        box-shadow: none;
+    }
+}
